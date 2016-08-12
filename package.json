@@ -1,0 +1,52 @@
+{
+  "name": "react-draggable",
+  "version": "1.0.0",
+  "description": "A draggable component written in TypeScript for both HTML and SVG applications. The component is also compiled and minified to be used with JSPM. ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhdev/react-draggable.git"
+  },
+  "keywords": [
+    "Draggable",
+    "TypeScript",
+    "SVG",
+    "HTML"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/react-draggable/issues"
+  },
+  "homepage": "https://github.com/suhdev/react-draggable#readme",
+  "devDependencies": {
+    "jslint": "^0.10.1",
+    "jspm": "^0.16.42",
+    "tslint": "^3.14.0",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "d3-drag": "^1.0.1",
+    "d3-zoom": "^1.0.3"
+  },
+  "jspm": {
+    "registry": "npm",
+    "main": "es6/index.js",
+    "format": "es6",
+    "dependencies": {
+      "d3-drag": "npm:d3-drag@^1.0.1",
+      "d3-zoom": "npm:d3-zoom@^1.0.3",
+      "react": "npm:react@^15.3.0",
+      "react-dom": "npm:react-dom@^15.3.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "typings": "./react-draggable.d.ts"
+}
