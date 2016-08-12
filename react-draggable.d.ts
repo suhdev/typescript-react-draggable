@@ -1,5 +1,5 @@
 ///<reference path="./typings/react/react.d.ts"/>
-declare module "react-draggable"{
+declare module "typescript-react-draggable" {
     import {Component} from 'react'; 
 
     export interface DraggableProps {

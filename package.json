@@ -1,5 +1,5 @@
 {
-  "name": "react-draggable",
+  "name": "typescript-react-draggable",
   "version": "1.0.0",
   "description": "A draggable component written in TypeScript for both HTML and SVG applications. The component is also compiled and minified to be used with JSPM. ",
   "main": "lib/index.js",

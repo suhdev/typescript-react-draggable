@@ -1,4 +1,4 @@
-# react-draggable 
+# typescript-react-draggable 
 
 A library that provides Draggable and Zoomable React components written in TypeScript:
 1. Draggable: adds drag behavior to its child component given that the child component is an HTMLElement with arbitrary content.  
@@ -16,7 +16,7 @@ D3: this library uses d3.behavior.drag, and d3.behavior.zoom to add the behavior
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom'; 
-import {Draggable} from 'react-draggable';
+import {Draggable} from 'typescript-react-draggable';
 
 ReactDOM.render(
     <Draggable>
@@ -27,7 +27,7 @@ ReactDOM.render(
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom'; 
-import {SVGDraggable} from 'react-draggable';
+import {SVGDraggable} from 'typescript-react-draggable';
 
 ReactDOM.render(
     <SVGDraggable>
@@ -37,7 +37,7 @@ ReactDOM.render(
 //Zoomable 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom'; 
-import {Zoomable} from 'react-draggable';
+import {Zoomable} from 'typescript-react-draggable';
 
 ReactDOM.render(
     <Zoomable>
@@ -49,7 +49,7 @@ ReactDOM.render(
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom'; 
-import {SVGZoomable} from 'react-draggable';
+import {SVGZoomable} from 'typescript-react-draggable';
 
 ReactDOM.render(
     <SVGZoomable>
