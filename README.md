@@ -1,6 +1,6 @@
 # react-draggable 
 
-A library that provides four React components including:
+A library that provides Draggable and Zoomable React components written in TypeScript:
 1. Draggable: adds drag behavior to its child component given that the child component is an HTMLElement with arbitrary content.  
 2. SVGDraggable: adds drag behavior to its child component given that the given component is an SVG component. 
 3. Zoomable: adds zoom behavior to HTML components.  
