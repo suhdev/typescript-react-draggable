@@ -8,20 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suhdev/react-draggable.git"
+    "url": "git+https://github.com/suhdev/typescript-react-draggable.git"
   },
   "keywords": [
     "Draggable",
     "TypeScript",
+    "Zoomable",
+    "SVG",
+    "React",
     "SVG",
     "HTML"
   ],
   "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suhdev/react-draggable/issues"
+    "url": "https://github.com/suhdev/typescript-react-draggable/issues"
   },
-  "homepage": "https://github.com/suhdev/react-draggable#readme",
+  "homepage": "https://github.com/suhdev/typescript-react-draggable#readme",
   "devDependencies": {
     "jslint": "^0.10.1",
     "jspm": "^0.16.42",
